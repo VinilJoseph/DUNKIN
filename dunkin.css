@@ -1,0 +1,171 @@
+
+
+/* ------------------------------------------ */
+@font-face {
+    font-family: 'FrankfurterMediumStddd';  /* You can name your font family as you like */
+    src: url('font/FrankfurterMediumStddd.ttf') format('truetype');  /* Specify the path to your TTF file */
+  }
+@font-face {
+    font-family: 'FrankfurterStdeee';  /* You can name your font family as you like */
+    src: url('font/FrankfurterStdeee.ttf') format('truetype');  /* Specify the path to your TTF file */
+  }
+
+body{
+    padding: 0;
+    font-family: FrankfurterStdeee, FrankfurterMediumStddd !important; 
+    font-weight: 300 !important;
+    
+    
+    
+}
+
+nav{
+    height: 85px;
+    
+}
+.w-logo{
+    width: 35% !important;
+    
+}
+.btn-primary{
+    background-color: #f26829!important ;
+    border-style: none !important;
+}
+
+.custom-btn {
+    background-color: #f26829;
+    color: #fff; /* Set text color to white for better contrast */
+  }
+
+.btn-warning{
+    background-color: #e4288f !important;
+}
+
+
+
+@media(max-width:768px){
+    .Takeaway{
+        display: none;
+    }
+   
+    
+}
+
+@media(max-width:768px){
+    .image-4{
+        display: none !important;
+    }
+    .card-donut{
+        padding: 3px !important;
+    }
+    .footer-brand{
+        text-align: center;
+    }
+
+}
+
+@media(min-width:768px){
+    .image-4{
+        display:block;
+    }
+
+    .Takeaway-2nd{
+        display: none;
+    }
+
+
+
+   
+
+}
+
+
+@media(max-width:300px){
+     .main-logo{
+        width: 130px !important;
+        height: 30px; 
+    }
+}
+
+
+
+.container{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.f_menu{
+    padding: 80px 0;
+    background-image: url(img/bg-img.avif)  ;
+    
+}
+*{
+    box-sizing: border-box;
+}
+.image_container{
+    width: 98.8% !important;
+    
+}
+.card-donut{
+    padding:  15px;
+    
+    border-radius: 20px !important;
+}
+
+.border{
+    border-radius: 40px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;    
+}
+.border:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-10px);
+    transition: 0.3s;
+    
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    background-color: rgb(101, 54, 2);
+}
+.footer-2{
+    background-color: rgb(101, 54, 2);
+}
+.foot_list{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-size: 1rem;
+    color: #fff;
+    
+}
+
+.button-main-div{
+    display: flex;
+}
+
+.button-main-div {
+    display: inline-block;
+    
+}
+
+@media (min-width: 768px) {
+    .button-main-div {
+        display: flex;
+    }
+}
+.text_align{
+    text-align: center;
+}
+.btn-primary{
+    width: 90px !important;
+}
+
+@media (min-width: 768px) {
+    .text_align {
+        text-align: left;
+    }
+    .btn-primary{
+        width: auto !important;
+    }
+}
